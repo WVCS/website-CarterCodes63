@@ -1,0 +1,76 @@
+
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarterWeb</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #555;
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .page {
+      display: none;
+    }
+
+    .page.active {
+      display: block;
+    }
+  </style>
+
+  <div class="navbar">
+    <a href="#" onclick="showPage('page1')">Home </a>
+    <a href="#" onclick="showPage('page2')">Projects</a>
+  </div>
+<html>
+  <head>
+  </head>
+  <body>
+    <center>
+    <h3> Carter's Website </h3>
+    <!DOCTYPE html>
+ 
+ 
+  <script>
+    function showPage(pageId) {
+      document.querySelectorAll('.page').forEach(page => {
+        page.classList.remove('active');
+      });
+      document.getElementById(pageId).classList.add('active');
+    }
+  </script>
+
+
+
+
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/037/371/622/small_2x/ai-generated-illustration-of-an-eagle-on-the-background-of-the-american-flag-closeup-ai-generation-photo.jpg">
+  </body> 
+</html>
+  
+  
