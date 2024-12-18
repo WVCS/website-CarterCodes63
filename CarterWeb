@@ -73,4 +73,25 @@
   </body> 
 </html>
   
+  <style>
+body {
+  background-color: lightgreen;
+}
+
+h3 {
+  color: darkblue;
+  font-size: 250%;
+   text-decoration-line: underline;
+  text-decoration-style: dashed;  
+  text-shadow: 2px 2px 10px blue;
+}
+h3:hover{
   
+}
+
+
+
+img:hover {
+  
+}
+</style>
