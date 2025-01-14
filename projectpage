@@ -1,0 +1,63 @@
+<html?
+       <head>
+</head>
+
+<body>
+  <title>Two-Page Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #555;
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .page {
+      display: none;
+    }
+
+    .page.active {
+      display: block;
+    }
+  </style>
+
+  <div class="navbar">
+    <a href="#" onclick="showPage('page1')">Home </a>
+    <a href="#" onclick="showPage('page2')">Projects</a>
+  </div>
+<html>
+  <center>
+    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/cgJ7nwscpTSlcy9nLuKcBvrki6rA5dO1BJ57UE6UWFH/embed?nosource"></iframe>
+    
+    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/oSX7Bh9JdWLk6i0TTvdqbqnaG5LwTipmEo2_lQ_VL3r/embed?nosource"></iframe>
+    
+    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/mc0SubHxYq4hYvz91Nj69vsaqKUE46LPPp3EI59qsg2/embed?nosource"></iframe>
+    
+    
+    </body>
+  </html>
+
